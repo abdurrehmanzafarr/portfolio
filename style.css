@@ -1,0 +1,308 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+nav
+{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px  0px;
+    padding: 15px;
+
+}
+.logo a{
+    font-size: 25px;
+    color: black;
+}
+.logo-part{
+    font-weight:900;
+    font-size:25px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+nav ul li a{
+    border: 2px ;
+    margin: 5px;
+    padding: 10px ;
+}
+nav ul li a:hover
+{
+    background-color: blueviolet;
+    border-radius: 4px;
+    
+}
+.content{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   color: black;
+}
+#image{
+    height: 400px;
+    width: 400px;
+    
+}
+#get-in-touch a{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size: 20;
+    
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#button{
+    padding: 10px 80px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: black;
+    font-size: 20;
+
+}
+.text p{
+    height: fit-content;
+    width: 800;
+    line-height: 2;
+}
+.text a{
+    text-decoration: none;
+}
+#button:hover
+{
+    background-color: darkred;
+    color: white;
+}
+nav ul 
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.nav-menu a{
+    
+    text-decoration: none;
+}
+
+#menu ul {
+    padding-left: 0px;
+}
+
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills #skills-content
+{
+ 
+    height: 600px;
+    width: 600px;
+}
+.skills #skills-image{
+   
+    height: 600px;
+    width: 600px;
+}
+.skills div img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+#skills-logo{
+    color: blueviolet;
+}
+.skills-name{
+    padding-top: 30px;
+    display: flex;
+    justify-items: center;
+
+}
+.skill-box{
+    padding-left: 10px;
+}
+#skills-content i{
+    color: blueviolet;
+    padding-top: 300%;
+    
+}
+.s-box p{
+    color: blueviolet;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proj-box1{
+    border-radius: 5%;
+    background-image: url(./company_1.jpg);
+    background-size: contain;
+    height: 240px;
+    width: 400px;
+}
+
+.proj-box1 #hidden{
+    background-color: aliceblue;
+    visibility: hidden;
+display: flex;
+border-radius: 5%;
+height: 100%;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.proj-box1:hover #hidden
+{
+
+    visibility: visible;
+} 
+
+.proj-box2{
+    border-radius: 5%;
+    background-image: url(./company_2.jpg);
+    background-size: contain;
+    height: 240px;
+    width: 400px;
+}
+
+.proj-box2 #hidden{
+    background-color: aliceblue;
+    visibility: hidden;
+display: flex;
+border-radius: 5%;
+height: 100%;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.proj-box2:hover #hidden
+{
+
+    visibility: visible;
+} 
+
+.proj-box3{
+    border-radius: 5%;
+    background-image: url(./Hidden-Meanings-of-Famous-Company-Logos.jpg);
+    background-size: contain;
+    height: 240px;
+    width: 400px;
+}
+
+.proj-box3 #hidden{
+    background-color: aliceblue;
+    visibility: hidden;
+display: flex;
+border-radius: 5%;
+height: 100%;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.proj-box3:hover #hidden
+{
+
+    visibility: visible;
+} 
+
+.box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reviews
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+  
+
+}
+
+.rev-box a{
+  padding: 10 20;
+  border-radius: 10px ;
+
+  background-color: aliceblue;
+text-decoration: none;
+color: blueviolet;
+  
+}
+.rev-box a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.rev-box
+{
+    border-radius: 10px;
+    background-color: rgb(81, 81, 204);
+    height: 400px;
+    width: 340;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rev-box img
+{
+    
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+#stars
+{
+    color: gold;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.contact-us div
+{
+  
+  
+}
+.contact-us img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.c-box{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    justify-items: space-evenly;
+    align-items: center;
+}
